@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(blue, white)
+}
+h1{
+    color: blue;
+    text-align:center;
+    text-decoration: overline;
+    font-size: 80px;
+}
+
+
+header,section{
+    background-color:pink;
+    border-style: 5;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    display: block;
+    border-radius: 50px;
+
+}
+nav{
+    background-color:plum;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+nav a{
+    color: green;
+    text-decoration:none ;
+    list-style: circle;
+
+}
+nav li{
+    display:inline;
+    background-color:aquamarine;
+    /*border-style: double;*/
+    margin-top: 30px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 15px;
+    
+}
+nav li a:hover{
+    background-color: yellowgreen;
+    border-radius: 22px;
+}
+li{
+    margin-top: 15px;
+    text-align: center;
+}
+ul{
+    font-size:50px;
+    margin:auto;
+    padding: 0;
+    list-style: none;
+    width: 300%;
+    font-size: 18px;
+}
+
+table,caption{
+     font-size:50px;
+     background: linear-gradient(blue, white);
+     text-align: center;
+     color: white;
+     border: double;
+     border-bottom-width: 10px;
+     font-style: oblique: 
+}
